@@ -1,0 +1,46 @@
+Let me help you troubleshoot Python not starting in the terminal. This is a common issue that usually stems from Python not being properly added to your system's PATH environment variable or not being installed correctly.
+
+First, let's check if Python is installed and accessible on your system. Here are a few alternative ways to run Python:
+
+1. Try Different Python Commands:
+```bash
+python --version
+# or
+python3 --version
+# or
+py --version
+```
+
+If none of these work, we need to verify Python's installation. Here's how to check and fix this:
+
+For Windows Users:
+1. Open your Windows search bar
+2. Type "Python" - you should see Python in your installed programs
+3. If you don't see Python, download it from python.org
+4. During installation, make sure to check the box that says "Add Python to PATH"
+
+Alternative Way to Run Python on Windows:
+1. Open your Start menu
+2. Type "Python" and click on "Python (Version)"
+3. This opens IDLE, Python's built-in editor
+4. You can also use PyCharm or Visual Studio Code as alternatives to the terminal
+
+For Mac Users:
+1. Open Spotlight (Command + Space)
+2. Type "Terminal"
+3. In Terminal, try:
+```bash
+which python3
+```
+This should show you where Python is installed.
+
+For Both Systems - Using an IDE:
+Instead of using the terminal, you could use an Integrated Development Environment (IDE):
+1. Download and install Visual Studio Code (VS Code)
+2. Install the Python extension in VS Code
+3. Open your azure_chatbot.py file in VS Code
+4. Click the "Run" button (play icon) in the top right
+
+Would you like me to guide you through any of these specific approaches? Or would you like to tell me what operating system you're using so I can provide more targeted instructions?
+
+Also, if you let me know what exactly happens when you try to start Python (any error messages you see), I can give you more specific troubleshooting steps.
