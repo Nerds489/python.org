@@ -1,0 +1,51 @@
+Here's how to check if Python is installed correctly:
+
+1. Open a terminal (Command Prompt or PowerShell on Windows, Terminal on Mac/Linux) and type:
+```bash
+python --version
+```
+or
+```bash
+python3 --version
+```
+
+This should show you the installed Python version (e.g., "Python 3.9.5"). If you see this, Python is installed correctly.
+
+2. You can also test if Python can run by opening the Python interpreter:
+```bash
+python
+```
+or 
+```bash
+python3
+```
+
+You should see something like:
+```
+Python 3.9.5 (default, May 4 2021, 03:33:11) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+3. If you get an error like "python not found" or "python3 not found", then either:
+- Python isn't installed
+- Python isn't in your system's PATH
+- You need to use a different command for your system
+
+4. To verify pip (Python's package installer) is working:
+```bash
+pip --version
+```
+or
+```bash
+pip3 --version
+```
+
+If any of these checks fail, you'll need to:
+1. Download Python from python.org
+2. Run the installer
+3. Make sure to check "Add Python to PATH" during installation
+4. Restart your terminal after installation
+
+Would you like me to explain any of these steps in more detail?
